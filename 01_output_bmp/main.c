@@ -57,6 +57,7 @@ typedef int32_t     i32;    typedef uint32_t     u32;
 // STRUCTS
 
 // typeof output format
+// enum not used directly
 enum img_type
 {
     BMP_32 = 0,
@@ -225,7 +226,7 @@ b32 create_image_output(char *output_path, i32 output_width, i32 output_height, 
         case BMP_32:
         {
             //
-            puts("CASE       = [BMP_24]");
+            puts("CASE       = [BMP_32]");
             struct bmp_header bmp = {0};
 
             // fill header
