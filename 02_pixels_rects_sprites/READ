@@ -1,0 +1,39 @@
+//  CGIONE
+//  BMP test 02 --- description
+
+//  Plot pixel revised, 
+//  plot rectangle, 
+//  plot solid sprite
+
+//  Main function remains unchanged
+//  from previous BMP test video
+
+//  New features are:
+
+1. Plot pixel as a function.
+    - pointer is casted from allocated buffer;
+    - check and reject out-of-bounds positions;
+    - input color is placed at pitch-calculated adress;
+
+    Done! Test!
+
+    Read pixel (at location) function:
+    Reverse process to get u32 color 
+    of pixel at location.
+
+2. Plot Rectangle function.
+    - from upper-left to lower-right;
+    - rect dimensions bounds to buffer-screen dimensions;
+    - advance to upper-left position of rectangle;
+    - fill buffer line with color;
+    - advance by pitch;
+
+    Done! Test!
+
+3. Plot solid sprite.
+    - plots "rectangle" of pixel data;
+    - bound by buffer-screen dimensions;
+    - checks if sprite element is transparent;
+    - plot 1-to-1 size pixel sprite;
+
+    Done! Test!
