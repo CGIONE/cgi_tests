@@ -10,3 +10,5 @@
 // 29.09.2021 // 02_pixels_rects_sprites
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/02_pixels_rects_sprites/bin/test1.bmp)
+
+//
