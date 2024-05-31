@@ -11,4 +11,6 @@
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/02_pixels_rects_sprites/bin/test1.bmp)
 
+// 31.05.2024 // 03_win32_boring_window
+
 //
