@@ -13,4 +13,7 @@
 
 // 31.05.2024 // 03_win32_boring_window
 
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/03_win32_boring_window//screen1.jpg)
+
 //
+
