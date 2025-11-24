@@ -15,5 +15,12 @@
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/03_win32_boring_window//screen1.jpg)
 
+// 04.11.2025 // 04_tick_n_flow
+Presenting a simple "fixed step logic" - "variable step render" main loop.
+Tick and flow!
+
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/04_tick_n_flow//04tick.jpg)
+
+
 //
 
