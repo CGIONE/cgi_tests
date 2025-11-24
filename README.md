@@ -19,7 +19,7 @@
 Presenting a simple "fixed step logic" - "variable step render" main loop.
 Tick and flow!
 
-![alt text](https://github.com/CGIONE/cgi_tests/blob/main/04_tick_n_flow//04tick.jpg)
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/04_tick_n_flow/4tick.jpg)
 
 
 //
