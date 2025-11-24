@@ -1,0 +1,112 @@
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+//
+//   CGIONE
+//   File: main.c
+//   04.11.2025
+//   CGI test 04, Ticknflow
+//   Win32 app, static linear buffer
+//   little endian, win32, gcc, c[99] 
+//   extra flags "-O3"
+//   moar info in README
+//
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+// recursively include everything
+#include "03game.h"
+
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
+
+int main()
+{
+     // prepare
+     puts("hello from main!");
+     if (!platformWindow())  { puts("fail platformWindow!"); };
+
+     //
+     printf("Freq (expect 10 mln) %llu\n", ptf->PerfFreq);
+
+     //
+     game_start();
+    
+     //
+     puts("enter loop!");
+
+
+
+     // enter cycle
+     while (ptf->isAppRunning)
+     {
+          //
+          platformMSG();
+
+          // conditions 
+          if(game->is_game_running)
+          {
+
+               //
+               uint64_t current_time_us = ptf_timestamp_us();
+               uint64_t elapsed_time_us = current_time_us - ptf->TIME_LAST_US;
+               ptf->TIME_LAST_US = current_time_us;
+
+               // CLAMP: Prevents a massive time jump on resuming from a pause.
+               const uint64_t MAX_ELAPSED_TIME_US = MAX_LOGIC_TICKS_PER_FRAME * TARGET_FPS_US;
+               if (elapsed_time_us > MAX_ELAPSED_TIME_US) { elapsed_time_us = MAX_ELAPSED_TIME_US; }
+               
+               //
+               ptf->TIME_ACCUM += elapsed_time_us;
+
+
+               //
+               u32 logic_ticks_executed = 0;
+               // The Accumulator Loop: Drains time, running one time per TARGET_FPS_US
+               while (
+                    ptf->TIME_ACCUM >= TARGET_FPS_US
+                    && logic_ticks_executed < MAX_LOGIC_TICKS_PER_FRAME
+               ) 
+               {
+                    //
+                    logic_update();
+
+                    // 
+                    game->logtick++;
+                    ptf->TIME_ACCUM -= TARGET_FPS_US;
+                    logic_ticks_executed++;
+               }
+
+
+
+               //
+               render_update();
+
+               //blit
+               platformBlit(game->ptr_buffer, game->buffer_xy.x, game->buffer_xy.y);
+
+               Sleep(1);
+          }
+
+          // out of window context
+          else 
+          {
+               ptf->TIME_LAST_US = ptf_timestamp_us();
+               ptf->TIME_ACCUM = 0;
+               Sleep(100);
+               
+
+          }
+
+
+     } // da loop
+
+     //
+     game_stop();
+
+
+     puts("goodbye from main!");
+     return 0;
+}
+
+/*------------------------------------------------------------------------------------*/
+/*------------------------------------------------------------------------------------*/
