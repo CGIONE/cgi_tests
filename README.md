@@ -22,5 +22,10 @@ Tick and flow!
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/04_tick_n_flow/4tick.jpg)
 
 
+// 29.11.2025 // 05_flow_debug
+Exploring the tools and options to debug the flow of ticks.
+
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/05_dig_dread/prev5s.jpg)
+
 //
 
