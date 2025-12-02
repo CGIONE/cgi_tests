@@ -27,5 +27,10 @@ Exploring the tools and options to debug the flow of ticks.
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/05_dig_dread/prev5s.jpg)
 
+// 02.12.2025 // 06_foolproof_reflection
+Meditations on the correctness of the whole thing
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/06_foolproof_correctness/06s.jpg)
+
 //
+
 
