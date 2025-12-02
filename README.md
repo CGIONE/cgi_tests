@@ -29,7 +29,7 @@ Exploring the tools and options to debug the flow of ticks.
 
 // 02.12.2025 // 06_foolproof_reflection
 Meditations on the correctness of the whole thing
-![alt text](https://github.com/CGIONE/cgi_tests/blob/main/06_foolproof_correctness/06s.jpg)
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/06_foolproof_reflection/06s.jpg)
 
 //
 
