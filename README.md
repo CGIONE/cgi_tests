@@ -32,6 +32,11 @@ Meditations on the correctness of the whole thing
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/06_foolproof_reflection/06s.jpg)
 
+// 07.12.2025 // 07_mastering_controls
+*New* feature, mouse and keyboard input example
+
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/07_mastering_controls/t7s.jpg)
+
 //
 
 
