@@ -37,6 +37,11 @@ Meditations on the correctness of the whole thing
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/07_mastering_controls/t7s.jpg)
 
+// 10.12.2025 // 08_clock_that_time
+Example of stopwatch functions for monitoring time of code performance
+
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/08_clock_that_time/t8s.jpg)
+
 //
 
 
