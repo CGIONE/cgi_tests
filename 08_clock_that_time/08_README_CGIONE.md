@@ -52,30 +52,6 @@ Src: github.com/CGIONE/cgi_tests
 
 
 
-1. 2-in-1 representation of variable [number + string]
-i32 var1 = 256;
-printfc(var1);
-
-2. Mixed type array, numbers or string
-r32 var2 = 512.256f;
-mix  varlist1[NUM_ELEMENTS] = {var1, var2};
-char varlist2[NUM_ELEMENTS] = {var1, var2};
-
-3. 3-in-1 representation of a variable [number + string + name]
-r32 var3 = 1.02f;
-print_cf(var3); // NAME[var3] 
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
