@@ -3,7 +3,6 @@
 //
 //   CGIONE
 //   File: main.c
-//   CGI test 07, Mastering Controls
 //   Win32 app, static linear buffer
 //   little endian, win32, gcc, c[99] 
 //   extra flags "-O3"
