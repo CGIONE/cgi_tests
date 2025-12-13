@@ -1,0 +1,50 @@
+// Place your key bindings in this file to override the defaultsauto[]
+[
+    {
+        "key": "ctrl+up",
+        "command": "multiCommand.upCursorScroll"
+    },
+    {
+        "key": "ctrl+down",
+        "command": "multiCommand.downCursorScroll"
+    },
+    {
+        "key": "ctrl+2",
+        "command": "editor.unfold",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+1",
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+
+    {
+        "key": "ctrl+2",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+
+    {
+        "key": "ctrl+e",
+        "command": "workbench.action.debug.restart",
+        "when": "inDebugMode"
+    },
+
+    {
+        "key": "shift+alt+q",
+        "command": "editor.action.blockComment",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+
+    {
+        "key": "ctrl+g",
+        "command": "workbench.action.toggleZenMode"
+    },
+
+    {
+        "key": "ctrl+d",
+        "command": "expandLineSelection",
+        "when": "textInputFocus"
+    }
+]
