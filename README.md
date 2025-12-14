@@ -1,18 +1,16 @@
 # cgi_tests
-// Testing cgi output
+// Testing graphics output
 
 // [YouTube Playlist](https://www.youtube.com/playlist?list=PL_OTXbD3YWwSOvhi6VUHSqMgF5T_YacWE)
 
-// 15.07.2021 
-
+// 15.07.2021<br>
 // 01_output_bmp
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/01_output_bmp/bin/test1.bmp)
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/01_output_bmp/bin/test2.bmp)
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/01_output_bmp/bin/test3.bmp)
 
-// 29.09.2021 
-
+// 29.09.2021<br>
 // 02_pixels_rects_sprites
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/02_pixels_rects_sprites/bin/test1.bmp)
