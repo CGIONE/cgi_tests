@@ -15,30 +15,32 @@
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/02_pixels_rects_sprites/bin/test1.bmp)
 
-// 31.05.2024 
-
+// 31.05.2024<br>
 // 03_win32_boring_window
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/03_win32_boring_window//screen1.jpg)
 
-// 04.11.2025 // 04_tick_n_flow
+// 04.11.2025<br>
+// 04_tick_n_flow<br>
 Presenting a simple "fixed step logic" - "variable step render" main loop.
 Tick and flow!
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/04_tick_n_flow/4tick.jpg)
 
-
-// 29.11.2025 // 05_flow_debug
+// 29.11.2025<br>
+// 05_flow_debug<br>
 Exploring the tools and options to debug the flow of ticks.
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/05_dig_dread/prev5s.jpg)
 
-// 02.12.2025 // 06_foolproof_reflection
+// 02.12.2025<br>
+// 06_foolproof_reflection<br>
 Meditations on the correctness of the whole thing
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/06_foolproof_reflection/06s.jpg)
 
-// 07.12.2025 // 07_mastering_controls
+// 07.12.2025<br>
+// 07_mastering_controls<br>
 *New* feature, mouse and keyboard input example
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/07_mastering_controls/t7s.jpg)
