@@ -1,7 +1,6 @@
 # cgi_tests
 // Testing cgi output
-// Playlist
-[]https://www.youtube.com/playlist?list=PL_OTXbD3YWwSOvhi6VUHSqMgF5T_YacWE
+// [YouTube Playlist](https://www.youtube.com/playlist?list=PL_OTXbD3YWwSOvhi6VUHSqMgF5T_YacWE)
 
 // 15.07.2021 // 01_output_bmp
 
