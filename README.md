@@ -45,12 +45,14 @@ Meditations on the correctness of the whole thing
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/07_mastering_controls/t7s.jpg)
 
-// 10.12.2025 // 08_clock_that_time
+// 10.12.2025<br>
+// 08_clock_that_time<br>
 Example of stopwatch functions for monitoring time of code performance
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/08_clock_that_time/t8s.jpg)
 
-// 13.12.2025 // 09_window_dressing
+// 13.12.2025<br>
+// 09_window_dressing<br>
 Turn the whole window into single linear buffer, nicer font and one generated fractal
 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/09_window_dressing/t9s.jpg)
