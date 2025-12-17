@@ -1,0 +1,38 @@
+{
+     "version": "2.0.0",
+     "tasks": [
+          {
+               "type": "shell",
+               "label": "GCC build active file",
+               "options": {
+                    "cwd": "${workspaceFolder}"
+               },
+               "presentation": {
+                    "clear": true
+               },
+               "group": {
+                    "kind": "build",
+                    "isDefault": true
+               },
+               "command": "C:\\MINGW64\\bin\\gcc.exe",
+               "args": [
+                    
+                    "-g3"
+
+                    //
+                    , "${workspaceFolder}\\main.c"
+                    
+                    //
+                    ,"-o"
+                    , "${workspaceFolder}\\Test10_YB.exe"
+
+                    //
+                    , "-O3"
+
+               ],
+               "problemMatcher": [
+                    "$gcc"
+               ]
+          }
+     ],
+}
