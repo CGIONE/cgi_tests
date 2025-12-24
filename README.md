@@ -67,6 +67,11 @@ A starting point of a testsuit: compare correctness and relative performance of 
 Behemoth of the line rasterization test suite
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/11_the_yield_midpoint/t11s.jpg)
 
+// 24.12.2025<br>
+// 12_the_yield_peak<br>
+The peak of scalar execution, given the mathematical correctness of line plot implementations
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/12_the_yield_peak/t12s.jpg)
+
 //
 
 
