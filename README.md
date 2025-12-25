@@ -72,6 +72,11 @@ Behemoth of the line rasterization test suite
 The peak of scalar execution, given the mathematical correctness of line plot implementations
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/12_the_yield_peak/t12s.jpg)
 
+// 25.12.2025<br>
+// 13_run_sliceabout<br>
+Run Length Slice Algorithm of line plotting (as in Michael Abrash's book), while not byte identical, greenlighted on line test and doing supersonic performance 
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/13_run_sliceabout/t13s.jpg)
+
 //
 
 
