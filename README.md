@@ -77,6 +77,11 @@ The peak of scalar execution, given the mathematical correctness of line plot im
 Run Length Slice Algorithm of line plotting (as in Michael Abrash's book), while not byte identical, greenlighted on line test and doing supersonic performance 
 ![alt text](https://github.com/CGIONE/cgi_tests/blob/main/13_run_sliceabout/t13s.jpg)
 
+// 28.12.2025<br>
+// 14_pixel_drift_zen<br>
+Observe Diff Map of elusive Pixel Drift to reach Parity Zen!
+![alt text](https://github.com/CGIONE/cgi_tests/blob/main/14_pixel_drift_zen/t14s.jpg)
+
 //
 
 
